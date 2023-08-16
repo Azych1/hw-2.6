@@ -29,7 +29,7 @@ public class Main {
 
         int prevNum = Integer.MIN_VALUE;
 
-        for (int num: nums) {
+        for (int num : nums) {
             if (num % 2 == 0 && num != prevNum) {
                 System.out.println(num);
                 prevNum = num;
